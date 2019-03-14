@@ -20,7 +20,7 @@ package org.javarosa.core.model;
  * Constants shared throughout classes in the containing package.
  * <p/>
  * Where possible use {@link DataType} instead of the DATATYPE_*
- * “int enum” fields.
+ * "int enum" fields.
  */
 public class Constants {
 

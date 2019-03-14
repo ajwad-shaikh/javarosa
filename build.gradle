@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'checkstyle'
+//    id 'checkstyle'
     id 'jacoco'
 }
 
@@ -53,9 +53,9 @@ jacocoTestReport {
 }
 
 // Required to use fileExtensions property in checkstyle file
-checkstyle {
-    toolVersion = '7.6.1'
-}
+//checkstyle {
+//    toolVersion = '7.6.1'
+//}
 
 jar {
     baseName = 'opendatakit-javarosa'

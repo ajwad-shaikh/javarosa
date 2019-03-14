@@ -127,10 +127,10 @@ public final class GeoUtils {
      * @return the distance between the two points, in meters
      */
     private static double distanceBetween(LatLong p1, LatLong p2) {
-        double Δλ = toRadians(p1.longitude - p2.longitude);
-        double φ1 = toRadians(p1.latitude);
-        double φ2 = toRadians(p2.latitude);
-        return acos(sin(φ1) * sin(φ2) + cos(φ1) * cos(φ2) * cos(Δλ)) * EARTH_EQUATORIAL_RADIUS_METERS;
+        double dy = toRadians(p1.longitude - p2.longitude);
+        double phi1 = toRadians(p1.latitude);
+        double phi2 = toRadians(p2.latitude);
+        return acos(sin(phi1) * sin(phi2) + cos(phi1) * cos(phi2) * cos(dy)) * EARTH_EQUATORIAL_RADIUS_METERS;
     }
 
     public static class LatLong {

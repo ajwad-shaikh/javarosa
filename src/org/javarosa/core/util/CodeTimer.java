@@ -34,7 +34,7 @@ public class CodeTimer {
     /**
      * Creates a CodeTimer for the specified operation
      *
-     * @param operation the name of the operation, such as “parsing form”
+     * @param operation the name of the operation, such as "parsing form"
      * @deprecated Use {@link StopWatch} instead
      */
     @Deprecated

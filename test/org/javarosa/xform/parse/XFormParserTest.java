@@ -224,7 +224,7 @@ public class XFormParserTest {
         for (String line : results) {
             logger.info(line);
         }
-        Files.delete(largeDataFilename);
+        // Files.delete(largeDataFilename);
     }
 
     @Test public void multipleInstancesFormSavesAndRestores() throws IOException, DeserializationException {
